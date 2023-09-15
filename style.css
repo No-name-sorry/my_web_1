@@ -1,0 +1,33 @@
+/* Стилізація заголовка на головній сторінці */
+header h1 {
+    font-size: 36px;
+    color: #333; /* Колір тексту */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Стилізація навігаційного меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #c7601a; /* Колір фону */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF; /* Колір посилань */
+    font-weight: bold;
+}
+
+/* Стилізація футера */
+footer {
+    text-align: center;
+    background-color: #333; /* Колір фону футера */
+    color: #FFF; /* Колір тексту футера */
+    padding: 10px 0;
+}
